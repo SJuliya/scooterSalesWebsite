@@ -475,6 +475,7 @@ img, svg {
 
     .product__description {
         margin-bottom: 20px;
+        -webkit-line-clamp: 3;
     }
 
     .product__btn {
@@ -578,10 +579,6 @@ img, svg {
     .product:nth-child(odd) .product__container {
         flex-direction: column;
         align-items: center;
-    }
-
-    .product__description {
-        -webkit-line-clamp: 3;
     }
 
     .product__btn {
